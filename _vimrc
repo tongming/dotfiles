@@ -240,7 +240,7 @@ else
 endif
 
 " Paste from clipboard
-map <leader>p "+p
+" map <leader>p "+p
 
 " Quit window on <leader>q
 nnoremap <leader>q :q<CR>
@@ -303,3 +303,4 @@ if filereadable($VIRTUAL_ENV . '/.vimrc')
 endif
 
 set colorcolumn=79
+set clipboard=unnamed
